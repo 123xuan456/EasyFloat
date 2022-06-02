@@ -2,14 +2,14 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 28
     viewBinding {
         enabled = true
     }
     defaultConfig {
         applicationId "com.mtm.easyfloat.example"
         minSdkVersion 16
-        targetSdkVersion 30
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
 
@@ -38,6 +38,7 @@ dependencies {
 
     implementation project(path: ':easyfloat')
     implementation 'cn.bingoogolapple:bga-swipebacklayout:2.0.1@aar'
+//    implementation 'com.github.123xuan456:EasyFloat:v1.0.0'
 
 
     implementation 'android.arch.lifecycle:runtime:1.1.1'
