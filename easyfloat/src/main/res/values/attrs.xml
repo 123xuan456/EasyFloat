@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <declare-styleable name="DefaultCloseView">
+        <!--区域默认颜色-->
+        <attr name="normalColor" format="color" />
+        <!--区域选中颜色-->
+        <attr name="inRangeColor" format="color" />
+        <!--区域形状-->
+        <attr name="closeShapeType" format="enum">
+            <enum name="oval" value="0" />
+            <enum name="rect" value="1" />
+            <enum name="circle" value="2" />
+        </attr>
+        <!--选中切换时的缩放大小-->
+        <attr name="zoomSize" format="dimension" />
+    </declare-styleable>
+
+</resources>
